@@ -1,0 +1,67 @@
+body {
+    background: #000000;
+    color: #fff;
+}
+h1 {
+    color: #ff9933;
+}
+#wrapper {
+    padding: 20px;
+}
+#svg {
+    display: block;
+    margin: auto;
+    float: left;
+}
+#field {
+    padding-left: 20px;
+    float: left;
+}
+circle {
+  stroke: green;
+  stroke-width: 1;
+  fill: transparent;
+}
+rect {
+  stroke-width: 0;
+  fill: #ff9933;
+}
+rect.inside {
+  fill: #fff;
+}
+.resultP {
+    border: 1px solid #ff9933;
+    border-radius: 5%;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+}
+label {
+    display: block;
+    padding-left: 70px;
+}
+.btn-start {
+	font-size: 20px;
+	padding: 20px 24px;
+	border: none;
+	border-radius: 10px;
+	background-color: #CC9900;
+	display: inline-block;
+	cursor: pointer;
+	text-align: center;
+	outline: none;
+	text-decoration: none;
+	box-shadow: 0px 5px #999;
+}
+.btn-start:hover {
+	background-color: #CC9966;
+}
+.btn-start:active {
+	background-color: #CC9933; 
+	box-shadow: 0 5px chocolate;
+	transform: translateY(4px);
+}
+.inputStop {
+	padding: 10px 24px;
+	border-radius: 10px;
+}

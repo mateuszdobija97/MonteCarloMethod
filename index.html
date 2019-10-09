@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+		<meta charset="utf-8">
+		<title>The Monte Carlo method</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css" type="text/css" media="all">
+  </head>
+
+  <body>
+    <div id="wrapper">
+
+      <div id="svg">
+        <svg width="600" height="600"></svg>    <!-- <circle cx="300" cy="300" r="300" /> --><!-- uncomment to show a 'guide' circle -->
+      </div>
+
+      <div id="field">
+        <h1>The Monte Carlo method</h1>
+        <div id="input">
+          <label for="stopAfter">Stop after:</label>
+          <input type="text" name="stop" id="stopAfter" class="inputStop" placeholder="points drawn">
+          <button type="button" class="btn btn-start">Start</button>
+        </div>
+        <p><i>Notice! Type higher value to get more approximate score.</i></p>
+        <div class="resultP">
+          <p>Points drawn: <span id="total">0</span></p>
+          <p>Points inside: <span id="inside">0</span></p>
+          <p>&Pi;: <span id="pi">0</span></p>
+        </div>
+      </div>
+
+    </div>
+
+
+    <script src="montecarlo.js"></script>
+  </body>
+</html>
